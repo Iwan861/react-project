@@ -85,6 +85,26 @@ body {
   margin-top: 10px;
 }
 
+.github {
+  margin-top: 10px;
+  display: flex;
+  align-content: center;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.github a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.github a:hover {
+  text-decoration: underline;
+  color: rgb(117, 117, 255);
+}
+
 @media screen and (max-width: 600px) {
   .input-box input[type="text"] {
     width: 100%;
