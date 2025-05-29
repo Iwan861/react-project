@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [temp, setTemp] = useState("");
-  const [word, setWord] = useState("");
+  const [word, setWord] = useState("test");
   const [size, setSize] = useState(100);
   const [bgColor, setBgColor] = useState("ffffff");
   const [qrCode, setQrCode] = useState("");
